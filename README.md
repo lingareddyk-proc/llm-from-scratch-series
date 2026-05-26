@@ -31,7 +31,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | 9  | Sampling, KV-cache, and making inference fast                        | [`posts/09-sampling-kvcache`](posts/09-sampling-kvcache)                                        |
 | 10 | Mixture of Experts: how Gemini and GPT-4 scale further               | [`posts/10-mixture-of-experts`](posts/10-mixture-of-experts)                                    |
 | 11 | From base model to assistant: SFT and DPO                            | [`posts/11-sft-and-dpo`](posts/11-sft-and-dpo)                                                  |
-| 12 | Putting it together: how a frontier LLM is actually built            | _coming soon_                                                                                   |
+| 12 | Putting it together: how a frontier LLM is actually built            | [`posts/12-frontier-llm-mapping`](posts/12-frontier-llm-mapping)                                |
 
 ## Run locally
 
@@ -55,14 +55,27 @@ llm-from-scratch-series/
 ├── requirements.txt
 ├── LICENSE                           <- MIT
 ├── src/                              <- shared package, grows over the series
-│   └── __init__.py
+│   ├── __init__.py
+│   ├── model.py                      <- TinyLLM: RMSNorm, GQA+RoPE, SwiGLU, DecoderBlock (added in Post 7)
+│   └── train.py                      <- pretraining loop, samplers, schedulers (added in Post 8)
 └── posts/
-    ├── 01-tokens-in-tokens-out/
-    │   ├── ARTICLE.md                <- Medium-ready article
-    │   ├── README.md                 <- Colab badge + summary
-    │   ├── notebook.ipynb            <- Colab notebook
-    │   └── figures/                  <- generated plots, if any
-    └── 02-tokenization-bpe/          <- same layout per post
+    ├── 01-tokens-in-tokens-out/      <- each post folder contains:
+    │   ├── ARTICLE.md                  <- Medium-ready article
+    │   ├── README.md                   <- Colab badge + summary
+    │   ├── notebook.ipynb              <- Colab notebook
+    │   ├── _build_notebook.py          <- reproducible source for the .ipynb
+    │   └── figures/                    <- generated plots, if any
+    ├── 02-tokenization-bpe/
+    ├── 03-embeddings-residual-stream/
+    ├── 04-attention-from-first-principles/
+    ├── 05-multi-head-attention/
+    ├── 06-positional-rope/
+    ├── 07-modern-decoder-block/
+    ├── 08-pretraining-tinystories/
+    ├── 09-sampling-kvcache/
+    ├── 10-mixture-of-experts/
+    ├── 11-sft-and-dpo/
+    └── 12-frontier-llm-mapping/
 ```
 
 ## License
