@@ -30,7 +30,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | 8  | Pretraining a small LLM end-to-end on Colab                          | [`posts/08-pretraining-tinystories`](posts/08-pretraining-tinystories)                          |
 | 9  | Sampling, KV-cache, and making inference fast                        | [`posts/09-sampling-kvcache`](posts/09-sampling-kvcache)                                        |
 | 10 | Mixture of Experts: how Gemini and GPT-4 scale further               | [`posts/10-mixture-of-experts`](posts/10-mixture-of-experts)                                    |
-| 11 | From base model to assistant: SFT and DPO                            | _coming soon_                                                                                   |
+| 11 | From base model to assistant: SFT and DPO                            | [`posts/11-sft-and-dpo`](posts/11-sft-and-dpo)                                                  |
 | 12 | Putting it together: how a frontier LLM is actually built            | _coming soon_                                                                                   |
 
 ## Run locally
