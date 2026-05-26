@@ -8,7 +8,7 @@
 - **Read mode (10 min):** read everything.
 - **Run mode (20 min):** open the Colab and run every cell. This is where the intuition actually clicks.
 
-> Colab: **[Open in Colab — `post_01_tokens_in_tokens_out.ipynb`](https://colab.research.google.com/github/<your-handle>/llm-from-scratch-series/blob/main/posts/01-tokens-in-tokens-out/notebook.ipynb)** — runs on a free CPU runtime in under 5 minutes.
+> Colab: **[Open in Colab — `post_01_tokens_in_tokens_out.ipynb`](https://colab.research.google.com/github/lingareddyk-proc/llm-from-scratch-series/blob/main/posts/01-tokens-in-tokens-out/notebook.ipynb)** — runs on a free CPU runtime in under 5 minutes.
 
 ---
 
@@ -110,4 +110,4 @@ The loop is the lingua franca of modern AI. Once you've written it, you've writt
 
 ---
 
-*Code for this series lives at [github.com/<your-handle>/llm-from-scratch-series](https://github.com/<your-handle>/llm-from-scratch-series). Pinned commit for this post: `v0.1.0`.*
+*Code for this series lives at [github.com/lingareddyk-proc/llm-from-scratch-series](https://github.com/lingareddyk-proc/llm-from-scratch-series). Pinned commit for this post: `v0.1.0`.*

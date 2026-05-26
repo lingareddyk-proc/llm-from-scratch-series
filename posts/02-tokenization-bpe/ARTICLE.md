@@ -10,7 +10,7 @@ In **Post 1** we treated the tokenizer as a black box: `text → [int, int, ...]
 - **Read (12 min):** all of it.
 - **Run (25 min):** open the Colab, train your own tokenizer, watch merges happen live.
 
-> Colab: **[Open in Colab — `notebook.ipynb`](https://colab.research.google.com/github/<your-handle>/llm-from-scratch-series/blob/main/posts/02-tokenization-bpe/notebook.ipynb)** — runs on free CPU in ~10 minutes.
+> Colab: **[Open in Colab — `notebook.ipynb`](https://colab.research.google.com/github/lingareddyk-proc/llm-from-scratch-series/blob/main/posts/02-tokenization-bpe/notebook.ipynb)** — runs on free CPU in ~10 minutes.
 
 ---
 
@@ -129,4 +129,4 @@ Now that text → integers is demystified, the next question is: what *are* thos
 
 ---
 
-*Code: [github.com/<your-handle>/llm-from-scratch-series](https://github.com/<your-handle>/llm-from-scratch-series), tagged `v0.2.0`.*
+*Code: [github.com/lingareddyk-proc/llm-from-scratch-series](https://github.com/lingareddyk-proc/llm-from-scratch-series), tagged `v0.2.0`.*

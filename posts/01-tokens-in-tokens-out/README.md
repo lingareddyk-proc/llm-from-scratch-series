@@ -2,7 +2,7 @@
 
 **Series:** LLM From Scratch · Post **1 of 12** · *Act I — Foundations*
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-handle>/llm-from-scratch-series/blob/main/posts/01-tokens-in-tokens-out/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lingareddyk-proc/llm-from-scratch-series/blob/main/posts/01-tokens-in-tokens-out/notebook.ipynb)
 
 ## 60-second summary
 

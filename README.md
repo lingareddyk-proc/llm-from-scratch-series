@@ -36,7 +36,7 @@ Act III — Frontier techniques    (Posts 9–12)
 ## Run locally
 
 ```bash
-git clone https://github.com/<your-handle>/llm-from-scratch-series.git
+git clone https://github.com/lingareddyk-proc/llm-from-scratch-series.git
 cd llm-from-scratch-series
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
