@@ -24,7 +24,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | 2  | Tokenization: how text becomes numbers (BPE from scratch)            | [`posts/02-tokenization-bpe`](posts/02-tokenization-bpe)                                        |
 | 3  | Embeddings and the residual stream                                   | [`posts/03-embeddings-residual-stream`](posts/03-embeddings-residual-stream)                    |
 | 4  | Attention from first principles                                      | [`posts/04-attention-from-first-principles`](posts/04-attention-from-first-principles)          |
-| 5  | Multi-head attention and why heads specialize                        | _coming soon_                                                                                   |
+| 5  | Multi-head attention and why heads specialize                        | [`posts/05-multi-head-attention`](posts/05-multi-head-attention)                                |
 | 6  | Positional information: from sinusoids to RoPE                       | _coming soon_                                                                                   |
 | 7  | The full modern decoder block (Llama / Gemma style)                  | _coming soon_                                                                                   |
 | 8  | Pretraining a small LLM end-to-end on Colab                          | _coming soon_                                                                                   |
