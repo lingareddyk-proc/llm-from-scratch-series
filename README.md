@@ -27,7 +27,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | 5  | Multi-head attention and why heads specialize                        | [`posts/05-multi-head-attention`](posts/05-multi-head-attention)                                |
 | 6  | Positional information: from sinusoids to RoPE                       | [`posts/06-positional-rope`](posts/06-positional-rope)                                          |
 | 7  | The full modern decoder block (Llama / Gemma style)                  | [`posts/07-modern-decoder-block`](posts/07-modern-decoder-block)                                |
-| 8  | Pretraining a small LLM end-to-end on Colab                          | _coming soon_                                                                                   |
+| 8  | Pretraining a small LLM end-to-end on Colab                          | [`posts/08-pretraining-tinystories`](posts/08-pretraining-tinystories)                          |
 | 9  | Sampling, KV-cache, and making inference fast                        | _coming soon_                                                                                   |
 | 10 | Mixture of Experts: how Gemini and GPT-4 scale further               | _coming soon_                                                                                   |
 | 11 | From base model to assistant: SFT and DPO                            | _coming soon_                                                                                   |
