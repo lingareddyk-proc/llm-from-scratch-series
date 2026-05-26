@@ -28,7 +28,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | 6  | Positional information: from sinusoids to RoPE                       | [`posts/06-positional-rope`](posts/06-positional-rope)                                          |
 | 7  | The full modern decoder block (Llama / Gemma style)                  | [`posts/07-modern-decoder-block`](posts/07-modern-decoder-block)                                |
 | 8  | Pretraining a small LLM end-to-end on Colab                          | [`posts/08-pretraining-tinystories`](posts/08-pretraining-tinystories)                          |
-| 9  | Sampling, KV-cache, and making inference fast                        | _coming soon_                                                                                   |
+| 9  | Sampling, KV-cache, and making inference fast                        | [`posts/09-sampling-kvcache`](posts/09-sampling-kvcache)                                        |
 | 10 | Mixture of Experts: how Gemini and GPT-4 scale further               | _coming soon_                                                                                   |
 | 11 | From base model to assistant: SFT and DPO                            | _coming soon_                                                                                   |
 | 12 | Putting it together: how a frontier LLM is actually built            | _coming soon_                                                                                   |
