@@ -1,0 +1,8 @@
+torch>=2.3
+transformers>=4.44
+tokenizers>=0.19
+datasets>=2.20
+matplotlib>=3.8
+numpy>=1.26
+jupyterlab>=4.2
+ipywidgets>=8.1
