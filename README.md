@@ -21,7 +21,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | #  | Title                                                                | Folder                                                                                          |
 | -- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | 1  | What an LLM actually is: tokens in, tokens out                       | [`posts/01-tokens-in-tokens-out`](posts/01-tokens-in-tokens-out)                                |
-| 2  | Tokenization: how text becomes numbers (BPE from scratch)            | _coming soon_                                                                                   |
+| 2  | Tokenization: how text becomes numbers (BPE from scratch)            | [`posts/02-tokenization-bpe`](posts/02-tokenization-bpe)                                        |
 | 3  | Embeddings and the residual stream                                   | _coming soon_                                                                                   |
 | 4  | Attention from first principles                                      | _coming soon_                                                                                   |
 | 5  | Multi-head attention and why heads specialize                        | _coming soon_                                                                                   |
@@ -57,11 +57,12 @@ llm-from-scratch-series/
 ├── src/                              <- shared package, grows over the series
 │   └── __init__.py
 └── posts/
-    └── 01-tokens-in-tokens-out/
-        ├── ARTICLE.md                <- Medium-ready article
-        ├── README.md                 <- Colab badge + summary
-        ├── notebook.ipynb            <- Colab notebook
-        └── figures/                  <- generated plots, if any
+    ├── 01-tokens-in-tokens-out/
+    │   ├── ARTICLE.md                <- Medium-ready article
+    │   ├── README.md                 <- Colab badge + summary
+    │   ├── notebook.ipynb            <- Colab notebook
+    │   └── figures/                  <- generated plots, if any
+    └── 02-tokenization-bpe/          <- same layout per post
 ```
 
 ## License
