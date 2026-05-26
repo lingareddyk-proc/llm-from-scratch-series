@@ -23,7 +23,7 @@ Act III — Frontier techniques    (Posts 9–12)
 | 1  | What an LLM actually is: tokens in, tokens out                       | [`posts/01-tokens-in-tokens-out`](posts/01-tokens-in-tokens-out)                                |
 | 2  | Tokenization: how text becomes numbers (BPE from scratch)            | [`posts/02-tokenization-bpe`](posts/02-tokenization-bpe)                                        |
 | 3  | Embeddings and the residual stream                                   | [`posts/03-embeddings-residual-stream`](posts/03-embeddings-residual-stream)                    |
-| 4  | Attention from first principles                                      | _coming soon_                                                                                   |
+| 4  | Attention from first principles                                      | [`posts/04-attention-from-first-principles`](posts/04-attention-from-first-principles)          |
 | 5  | Multi-head attention and why heads specialize                        | _coming soon_                                                                                   |
 | 6  | Positional information: from sinusoids to RoPE                       | _coming soon_                                                                                   |
 | 7  | The full modern decoder block (Llama / Gemma style)                  | _coming soon_                                                                                   |
